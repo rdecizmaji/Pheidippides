@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\drawable-xxhdpi\\common_signin_btn_text_disabled_focus_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_signin_btn_text_disabled_focus_light.9.png",
-        "source": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\drawable-xxhdpi\\common_signin_btn_text_disabled_focus_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_signin_btn_icon_disabled_dark.9.png",
         "source": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\drawable-xxhdpi\\common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\drawable-xxhdpi\\common_signin_btn_text_disabled_focus_light.9.png"
     },
     {
         "merged": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_signin_btn_icon_disabled_focus_light.9.png",
@@ -74,6 +74,10 @@
     {
         "merged": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_signin_btn_text_focus_light.9.png",
         "source": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\drawable-xxhdpi\\common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher1.png",
+        "source": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\drawable-xxhdpi\\ic_launcher1.png"
     },
     {
         "merged": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_signin_btn_text_focus_dark.9.png",
