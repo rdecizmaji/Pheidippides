@@ -5,33 +5,53 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="92895162532803"
+    timestamp="93699067805782"
     token="-5223390597422469"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="6110" />
+        duration="459" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="113" />
+        duration="55" />
     <task
         name="verifier"
-        duration="7" />
+        duration="6" />
 
     <artifact
-        location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\outputs\apk\android-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="92895162532803"
+        timestamp="93313754145954"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\outputs\apk\android-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="93590690572085"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="93699067805782"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

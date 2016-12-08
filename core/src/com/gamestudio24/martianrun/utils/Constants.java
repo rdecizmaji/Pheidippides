@@ -102,10 +102,10 @@ public class Constants {
     public static final String RUNNER_HIT_SOUND = "hit.wav";
     public static final String GAME_MUSIC = "fun_in_a_bottle.mp3";
 
-    public static final String FONT_NAME = "roboto_bold.ttf";
+    public static final String FONT_NAME = "Trajan_Pro.ttf";
 
-    public static final String ABOUT_TEXT = "Developed by: @gamestudio24\nPowered by: " +
-            "@libgdx\nGraphics: @kenneywings\nMusic: @kmacleod";
+    public static final String ABOUT_TEXT = "Developed by: Florijan, Denis, Špela\nPowered by: " +
+            "@libgdx\nGraphics: @kenneywings\nMusic: Ceca - Ime i preziv";
     public static final String SHARE_MESSAGE_PREFIX = "Check out " + GAME_NAME + " %s";
     public static final String SHARE_TITLE = "Share!";
     public static final String PAUSED_LABEL = "Paused";
