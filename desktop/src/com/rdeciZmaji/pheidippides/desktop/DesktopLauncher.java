@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.gamestudio24.martianrun.desktop;
+package com.rdeciZmaji.pheidippides.desktop;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.gamestudio24.martianrun.MartianRun;
-import com.gamestudio24.martianrun.utils.Constants;
-import com.gamestudio24.martianrun.utils.GameEventListener;
+import com.rdeciZmaji.pheidippides.Pheidippides;
+import com.rdeciZmaji.pheidippides.utils.Constants;
+import com.rdeciZmaji.pheidippides.utils.GameEventListener;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
         config.width = Constants.APP_WIDTH;
         config.height = Constants.APP_HEIGHT;
-		new LwjglApplication(new MartianRun(new GameEventListener() {
+		new LwjglApplication(new Pheidippides(new GameEventListener() {
             @Override
             public void displayAd() {
                 Gdx.app.log(GameEventListener.class.getSimpleName(), "displayAd");
