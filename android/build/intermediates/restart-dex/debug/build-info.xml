@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
-    density="xxhdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
     format="8"
-    plugin-version="2.2.1"
-    timestamp="82598805782996"
-    token="-5792380268334657882"
+    plugin-version="2.2.3"
+    timestamp="19907784871862"
+    token="-405494942016618590"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1451" />
+        duration="428" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1779" />
+        duration="437" />
     <task
         name="verifier"
-        duration="402" />
+        duration="15" />
 
     <artifact
-        location="C:\Users\Spela\Documents\Sola\Sola\RVIR\Vaje\Pheidippides\android\build\outputs\apk\android-debug.apk"
+        location="/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/outputs/apk/android-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="82598805782996"
+        timestamp="19907784871862"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Spela\Documents\Sola\Sola\RVIR\Vaje\Pheidippides\android\build\outputs\apk\android-debug.apk"
+            location="/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/outputs/apk/android-debug.apk"
             type="MAIN" />
     </build>
 
