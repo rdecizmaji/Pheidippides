@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.gamestudio24.martianrun;
+package com.rdeciZmaji.pheidippides;
 
 import android.app.Application;
-import com.gamestudio24.martianrun.android.R;
+import com.rdeciZmaji.pheidippides.android.R;
 import com.google.android.gms.analytics.GoogleAnalytics;
 
 public class MainApplication extends Application {

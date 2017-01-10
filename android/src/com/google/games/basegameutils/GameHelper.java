@@ -74,7 +74,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
     // configuration done?
     private boolean mSetupDone = false;
 
-    // are we currently connecting?
+    // are we currently connecting
     private boolean mConnecting = false;
 
     // Are we expecting the result of a resolution flow?

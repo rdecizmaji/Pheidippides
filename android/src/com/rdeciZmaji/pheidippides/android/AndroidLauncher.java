@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.gamestudio24.martianrun.android;
+package com.rdeciZmaji.pheidippides.android;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,10 +25,12 @@ import android.widget.RelativeLayout;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.gamestudio24.martianrun.MartianRun;
-import com.gamestudio24.martianrun.utils.Constants;
-import com.gamestudio24.martianrun.utils.GameEventListener;
-import com.gamestudio24.martianrun.utils.GameManager;
+import com.rdeciZmaji.pheidippides.android.BuildConfig;
+import com.rdeciZmaji.pheidippides.android.R;
+import com.rdeciZmaji.pheidippides.Pheidippides;
+import com.rdeciZmaji.pheidippides.utils.Constants;
+import com.rdeciZmaji.pheidippides.utils.GameEventListener;
+import com.rdeciZmaji.pheidippides.utils.GameManager;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
@@ -64,7 +66,7 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 
         // Game view
-        View gameView = initializeForView(new MartianRun(this), config);
+        View gameView = initializeForView(new Pheidippides(this), config);
         layout.addView(gameView);
 
 
