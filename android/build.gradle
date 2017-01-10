@@ -7,7 +7,7 @@ android {
     compileSdkVersion 21
 
     defaultConfig {
-        applicationId "com.gamestudio24.cityescape.android"
+        applicationId "com.rdeciZmaji.pheidippides.android"
         targetSdkVersion 21
         minSdkVersion 9
         versionCode 21
@@ -93,7 +93,7 @@ task run(type: Exec) {
     }
 
     def adb = path + "/platform-tools/adb"
-    commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.gamestudio24.cityescape.android/AndroidLauncher'
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.rdeciZmaji.pheidippides.android/AndroidLauncher'
 }
 
 // sets up the Android Eclipse project, using the old Ant based build.
