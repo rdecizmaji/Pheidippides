@@ -1,7 +1,7 @@
-#Thu Dec 08 14:38:24 CET 2016
-base.0=C\:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_21aeb0ea7df37002f52d2b50839a8f1579cc2e78
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_060a05f20daf7b09f06b02dec2c3f2b755ca6ef6\\classes.dex
-base.1=C\:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_060a05f20daf7b09f06b02dec2c3f2b755ca6ef6
-file.0=C\:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_21aeb0ea7df37002f52d2b50839a8f1579cc2e78\\classes.dex
+#Tue Jan 10 17:51:30 CET 2017
+base.0=C\:\\Users\\Spela\\Documents\\Sola\\Sola\\RVIR\\Vaje\\Pheidippides\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2bb336869158619121cf2b08a701aa34cf412269
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Spela\\Documents\\Sola\\Sola\\RVIR\\Vaje\\Pheidippides\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_95afffe2b054745acabca2c012d0e1c93ec9922c\\classes.dex
+base.1=C\:\\Users\\Spela\\Documents\\Sola\\Sola\\RVIR\\Vaje\\Pheidippides\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_95afffe2b054745acabca2c012d0e1c93ec9922c
+file.0=C\:\\Users\\Spela\\Documents\\Sola\\Sola\\RVIR\\Vaje\\Pheidippides\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2bb336869158619121cf2b08a701aa34cf412269\\classes.dex

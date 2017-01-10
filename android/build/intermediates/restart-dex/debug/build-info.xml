@@ -2,56 +2,36 @@
 <instant-run
     abi="x86"
     api-level="24"
-    density="420dpi"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="93699067805782"
-    token="-5223390597422469"
-    verifier="FIELD_TYPE_CHANGE" >
+    timestamp="82598805782996"
+    token="-5792380268334657882"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="459" />
+        duration="1451" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="55" />
+        duration="1779" />
     <task
         name="verifier"
-        duration="6" />
+        duration="402" />
 
     <artifact
-        location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
+        location="C:\Users\Spela\Documents\Sola\Sola\RVIR\Vaje\Pheidippides\android\build\outputs\apk\android-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="93313754145954"
+        timestamp="82598805782996"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\outputs\apk\android-debug.apk"
+            location="C:\Users\Spela\Documents\Sola\Sola\RVIR\Vaje\Pheidippides\android\build\outputs\apk\android-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="93590690572085"
-        verifier="FIELD_TYPE_CHANGE" >
-        <artifact
-            location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="93699067805782"
-        verifier="FIELD_TYPE_CHANGE" >
-        <artifact
-            location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Users\Denis\AndroidStudioProjects\Pheidippides\android\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
