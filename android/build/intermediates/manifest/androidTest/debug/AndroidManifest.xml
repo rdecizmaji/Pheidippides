@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gamestudio24.cityescape.android.test">
+    package="com.rdeciZmaji.pheidippides.android.test">
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="21" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.gamestudio24.cityescape.android"
+                     android:targetPackage="com.rdeciZmaji.pheidippides.android"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.gamestudio24.cityescape.android"/>
+                     android:label="Tests for com.rdeciZmaji.pheidippides.android"/>
 </manifest>
