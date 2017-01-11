@@ -46,14 +46,38 @@ public abstract class GameButton extends Button {
             }
         });
     }
+    public GameButton(Rectangle bounds, int i) {
+        this.bounds = bounds;
+        setWidth(bounds.width);
+        setHeight(bounds.height);
+        setBounds(bounds.x, bounds.y, bounds.width, bounds.height);
+        skin = new Skin();
+        skin.addRegions(AssetsManager.getTextureAtlas());
+        loadTextureRegion(i);
+        addListener(new ClickListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                touched();
+                loadTextureRegion();
+                return true;
+            }
+        });
+    }
 
     protected void loadTextureRegion() {
         ButtonStyle style = new ButtonStyle();
         style.up = skin.getDrawable(getRegionName());
         setStyle(style);
     }
+    protected void loadTextureRegion(int i) {
+        ButtonStyle style = new ButtonStyle();
+        setButtonNumber(i);
+        style.up = skin.getDrawable(getRegionName());
+        setStyle(style);
+    }
 
     protected abstract String getRegionName();
+    protected abstract void setButtonNumber(int i);
 
     public abstract void touched();
 

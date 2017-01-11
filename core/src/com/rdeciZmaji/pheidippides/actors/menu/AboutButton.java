@@ -44,5 +44,6 @@ public class AboutButton extends GameButton {
     public void touched() {
         listener.onAbout();
     }
-
+    @Override
+    public void setButtonNumber(int bn){}
 }

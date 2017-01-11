@@ -36,5 +36,7 @@ public class MusicButton extends GameButton {
         AudioUtils.getInstance().toggleMusic();
         AudioUtils.getInstance().playMusic();
     }
+    @Override
+    public void setButtonNumber(int bn){}
 
 }

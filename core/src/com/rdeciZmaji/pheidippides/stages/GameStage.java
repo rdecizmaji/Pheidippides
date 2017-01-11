@@ -25,6 +25,8 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Scaling;
 import com.badlogic.gdx.utils.viewport.ScalingViewport;
+import com.rdeciZmaji.pheidippides.actors.menu.ChooseButton;
+import com.rdeciZmaji.pheidippides.actors.menu.GameLabelC;
 import com.rdeciZmaji.pheidippides.enums.GameState;
 import com.rdeciZmaji.pheidippides.actors.Background;
 import com.rdeciZmaji.pheidippides.actors.Enemy;
@@ -71,9 +73,13 @@ public class GameStage extends Stage implements ContactListener {
     private MusicButton musicButton;
     private PauseButton pauseButton;
     private StartButton startButton;
+    private ChooseButton chooseButton1;
+    private ChooseButton chooseButton2;
+    private ChooseButton chooseButton3;
     private LeaderboardButton leaderboardButton;
     private AboutButton aboutButton;
     private ShareButton shareButton;
+    private ShareButton shareButton1;
     private AchievementsButton achievementsButton;
 
     private Score score;
@@ -270,8 +276,7 @@ public class GameStage extends Stage implements ContactListener {
         float x = getCamera().viewportWidth / 4 - width / 2;
         Rectangle leftTutorialBounds = new Rectangle(x, getCamera().viewportHeight * 9 / 20, width,
                 width);
-        addActor(new Tutorial(leftTutorialBounds, Constants.TUTORIAL_LEFT_REGION_NAME,
-                Constants.TUTORIAL_LEFT_TEXT));
+        addActor(new Tutorial(leftTutorialBounds, Constants.TUTORIAL_LEFT_REGION_NAME, Constants.TUTORIAL_LEFT_TEXT));
     }
 
     private void setUpRightTutorial() {
@@ -281,6 +286,25 @@ public class GameStage extends Stage implements ContactListener {
                 width);
         addActor(new Tutorial(rightTutorialBounds, Constants.TUTORIAL_RIGHT_REGION_NAME,
                 Constants.TUTORIAL_RIGHT_TEXT));
+    }
+
+    private void setUpIzberi() {
+        Rectangle chooseButtonBounds = new Rectangle(getCamera().viewportWidth * 1 / 16, getCamera().viewportHeight / 5, getCamera().viewportWidth / 4, getCamera().viewportWidth / 4);
+        Rectangle ButtonBounds = new Rectangle();
+        chooseButton1 = new ChooseButton(chooseButtonBounds, new GameChooseButtonListener(),1);
+        addActor(chooseButton1);
+        Rectangle chooseButtonBounds1 = new Rectangle(getCamera().viewportWidth * 6 / 16, getCamera().viewportHeight / 5, getCamera().viewportWidth / 4, getCamera().viewportWidth / 4);
+        Rectangle ButtonBounds1 = new Rectangle();
+        chooseButton2 = new ChooseButton(chooseButtonBounds1, new GameChooseButtonListener(), 2);
+        Rectangle chooseButtonBounds2 = new Rectangle(getCamera().viewportWidth * 11 / 16, getCamera().viewportHeight / 5, getCamera().viewportWidth / 4, getCamera().viewportWidth / 4);
+        Rectangle ButtonBounds2 = new Rectangle();
+        chooseButton3 = new ChooseButton(chooseButtonBounds2, new GameChooseButtonListener(), 3);
+        Rectangle gameLabelBounds = new Rectangle(0, getCamera().viewportHeight * 7 / 8,
+                getCamera().viewportWidth, getCamera().viewportHeight / 4);
+        addActor(new GameLabelC(gameLabelBounds));
+        addActor(chooseButton1);
+        addActor(chooseButton2);
+        addActor(chooseButton3);
     }
 
     @Override
@@ -487,6 +511,20 @@ public class GameStage extends Stage implements ContactListener {
 
         @Override
         public void onStart() {
+            clear();
+            setUpStageBase();
+            setUpIzberi();
+            //setUpCharacters();
+            //setUpPause();
+            //setUpTutorial();
+            //onGameResumed();
+        }
+
+    }
+    private class GameChooseButtonListener implements ChooseButton.ChooseButtonListener {
+
+        @Override
+        public void onChoose() {
             clear();
             setUpStageBase();
             setUpCharacters();

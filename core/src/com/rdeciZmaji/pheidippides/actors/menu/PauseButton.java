@@ -57,5 +57,7 @@ public class PauseButton extends GameButton {
             listener.onPause();
         }
     }
+    @Override
+    public void setButtonNumber(int bn){}
 
 }

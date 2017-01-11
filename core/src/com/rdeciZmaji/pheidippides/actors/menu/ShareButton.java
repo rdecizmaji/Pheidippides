@@ -42,4 +42,6 @@ public class ShareButton extends GameButton {
         listener.onShare();
     }
 
+    @Override
+    public void setButtonNumber(int bn){}
 }

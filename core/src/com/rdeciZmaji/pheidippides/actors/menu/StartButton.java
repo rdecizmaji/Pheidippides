@@ -52,4 +52,8 @@ public class StartButton extends GameButton {
         listener.onStart();
     }
 
+    @Override
+    public void setButtonNumber(int bn){
+    }
+
 }

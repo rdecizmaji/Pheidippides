@@ -52,4 +52,7 @@ public class LeaderboardButton extends GameButton {
         listener.onLeaderboard();
     }
 
+    @Override
+    public void setButtonNumber(int bn){}
+
 }

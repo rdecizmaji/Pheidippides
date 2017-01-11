@@ -42,4 +42,7 @@ public class AchievementsButton extends GameButton {
         listener.onAchievements();
     }
 
+    @Override
+    public void setButtonNumber(int bn){}
+
 }
