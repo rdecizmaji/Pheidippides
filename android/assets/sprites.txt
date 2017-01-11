@@ -72,13 +72,6 @@ bee_fly2
   orig: 61, 42
   offset: 0, 0
   index: -1
-close
-  rotate: false
-  xy: 2, 2
-  size: 48, 48
-  orig: 48, 48
-  offset: 0, 0
-  index: -1
 fly_fly1
   rotate: false
   xy: 166, 102
@@ -105,13 +98,6 @@ ladyBug_walk2
   xy: 2, 162
   size: 59, 42
   orig: 59, 42
-  offset: 0, 0
-  index: -1
-leaderboard
-  rotate: false
-  xy: 2, 818
-  size: 201, 201
-  orig: 201, 201
   offset: 0, 0
   index: -1
 music_off
@@ -147,6 +133,34 @@ play_big
   xy: 2, 616
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+leaderboard
+  rotate: false
+  xy: 2, 818
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+tekac3
+  rotate: false
+  xy: 2, 1020
+  size: 70, 96
+  orig: 70, 96
+  offset: 0, 0
+  index: -1
+tekac4
+  rotate: false
+  xy: 74, 1020
+  size: 70, 96
+  orig: 70, 96
+  offset: 0, 0
+  index: -1
+close
+  rotate: false
+  xy: 2, 2
+  size: 48, 48
+  orig: 48, 48
   offset: 0, 0
   index: -1
 share
@@ -217,5 +231,12 @@ worm_walk2
   xy: 2, 206
   size: 63, 23
   orig: 63, 23
+  offset: 0, 0
+  index: -1
+alienBeige_run3
+  rotate: false
+  xy: 2, 396
+  size: 70, 96
+  orig: 70, 96
   offset: 0, 0
   index: -1
