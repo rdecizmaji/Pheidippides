@@ -228,17 +228,17 @@ public class GameStage extends Stage implements ContactListener {
         addActor(ground);
     }
 
-    private void setUpCharacters() {
-        setUpRunner();
+    private void setUpCharacters(int stR) {
+        setUpRunner(stR);
         setUpPauseLabel();
         createEnemy();
     }
 
-    private void setUpRunner() {
+    private void setUpRunner(int r) {
         if (runner != null) {
             runner.remove();
         }
-        runner = new Runner(WorldUtils.createRunner(world));
+        runner = new Runner(WorldUtils.createRunner(world),r);
         addActor(runner);
     }
 
@@ -524,10 +524,10 @@ public class GameStage extends Stage implements ContactListener {
     private class GameChooseButtonListener implements ChooseButton.ChooseButtonListener {
 
         @Override
-        public void onChoose() {
+        public void onChoose(int bn) {
             clear();
             setUpStageBase();
-            setUpCharacters();
+            setUpCharacters(bn);
             setUpPause();
             setUpTutorial();
             onGameResumed();

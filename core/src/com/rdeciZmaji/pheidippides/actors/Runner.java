@@ -46,14 +46,29 @@ public class Runner extends GameActor {
 
     private int jumpCount;
 
-    public Runner(Body body) {
+    public Runner(Body body, int i) {
         super(body);
         jumpCount = 0;
-        runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID);
         stateTime = 0f;
-        jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
-        dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
-        hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
+        if(i==1){
+            runningAnimation = AssetsManager.getAnimation(Constants.FLYING_WIDE_ENEMY_ASSETS_ID);
+            jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
+            dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
+            hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
+        }
+        else if(i==2){
+            runningAnimation = AssetsManager.getAnimation(Constants.FLYING_SMALL_ENEMY_ASSETS_ID);
+            jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
+            dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
+            hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
+        }
+        else{
+            runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID);
+            jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
+            dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
+            hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
+        }
+
         jumpSound = AudioUtils.getInstance().getJumpSound();
         hitSound = AudioUtils.getInstance().getHitSound();
     }

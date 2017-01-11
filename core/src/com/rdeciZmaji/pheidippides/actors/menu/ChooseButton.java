@@ -12,7 +12,7 @@ import com.rdeciZmaji.pheidippides.utils.GameManager;
 public class ChooseButton extends GameButton {
 
     public interface ChooseButtonListener {
-        public void onChoose();
+        public void onChoose(int i);
     }
 
     private ChooseButton.ChooseButtonListener listener;
@@ -48,7 +48,7 @@ public class ChooseButton extends GameButton {
 
     @Override
     public void touched() {
-        listener.onChoose();
+        listener.onChoose(buttonNumber);
     }
 
     @Override

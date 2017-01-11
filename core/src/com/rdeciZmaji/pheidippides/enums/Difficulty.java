@@ -21,7 +21,7 @@ import com.rdeciZmaji.pheidippides.utils.Constants;
 
 public enum Difficulty {
 
-    DIFFICULTY_1(1, Constants.ENEMY_LINEAR_VELOCITY, Constants.RUNNER_GRAVITY_SCALE, Constants.RUNNER_JUMPING_LINEAR_IMPULSE, 5),
+    DIFFICULTY_1(1, Constants.ENEMY_LINEAR_VELOCITY, Constants.RUNNER_GRAVITY_SCALE, Constants.RUNNER_JUMPING_LINEAR_IMPULSE, 0),
     DIFFICULTY_2(2, new Vector2(-12f, 0f), Constants.RUNNER_GRAVITY_SCALE * 1.1f, new Vector2(0, 13f), 10),
     DIFFICULTY_3(3, new Vector2(-14f, 0f), Constants.RUNNER_GRAVITY_SCALE * 1.1f, new Vector2(0, 13f), 20),
     DIFFICULTY_4(4, new Vector2(-16f, 0f), Constants.RUNNER_GRAVITY_SCALE * 1.1f, new Vector2(0, 13f), 40),
