@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 161
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 244
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 317
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 483
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 556
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 629
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 703
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 776
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 860
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_colors.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 941
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1012
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1084
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1161
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1227
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1312
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1386
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1456
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 1527
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 1594
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 1662
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 1721
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 1778
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_colors.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_colors.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -448,7 +448,7 @@
                     "endOffset": 4912
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\version.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/version.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -467,13 +467,13 @@
                     "endOffset": 4961
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 1783,
+                        "startOffset": 1784,
                         "endColumn": 56,
-                        "endOffset": 1835
+                        "endOffset": 1836
                     }
                 }
             },
@@ -486,13 +486,13 @@
                     "endOffset": 5009
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
-                        "startOffset": 1727,
+                        "startOffset": 1728,
                         "endColumn": 55,
-                        "endOffset": 1778
+                        "endOffset": 1779
                     }
                 }
             },
@@ -505,13 +505,13 @@
                     "endOffset": 5051
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 1577,
+                        "startOffset": 1578,
                         "endColumn": 49,
-                        "endOffset": 1622
+                        "endOffset": 1623
                     }
                 }
             },
@@ -524,13 +524,13 @@
                     "endOffset": 5093
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
-                        "startOffset": 1627,
+                        "startOffset": 1628,
                         "endColumn": 49,
-                        "endOffset": 1672
+                        "endOffset": 1673
                     }
                 }
             },
@@ -543,13 +543,13 @@
                     "endOffset": 5142
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 1840,
+                        "startOffset": 1841,
                         "endColumn": 56,
-                        "endOffset": 1892
+                        "endOffset": 1893
                     }
                 }
             },
@@ -562,13 +562,13 @@
                     "endOffset": 5184
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
-                        "startOffset": 1677,
+                        "startOffset": 1678,
                         "endColumn": 49,
-                        "endOffset": 1722
+                        "endOffset": 1723
                     }
                 }
             },
@@ -581,13 +581,13 @@
                     "endOffset": 5225
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 1528,
+                        "startOffset": 1529,
                         "endColumn": 48,
-                        "endOffset": 1572
+                        "endOffset": 1573
                     }
                 }
             },
@@ -600,13 +600,13 @@
                     "endOffset": 5268
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
-                        "startOffset": 1477,
+                        "startOffset": 1478,
                         "endColumn": 50,
-                        "endOffset": 1523
+                        "endOffset": 1524
                     }
                 }
             },
@@ -619,13 +619,13 @@
                     "endOffset": 5317
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 1318,
+                        "startOffset": 1319,
                         "endColumn": 56,
-                        "endOffset": 1370
+                        "endOffset": 1371
                     }
                 }
             },
@@ -638,13 +638,13 @@
                     "endOffset": 5363
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
-                        "startOffset": 1375,
+                        "startOffset": 1376,
                         "endColumn": 53,
-                        "endOffset": 1424
+                        "endOffset": 1425
                     }
                 }
             },
@@ -657,13 +657,13 @@
                     "endOffset": 5403
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
-                        "startOffset": 1429,
+                        "startOffset": 1430,
                         "endColumn": 47,
-                        "endOffset": 1472
+                        "endOffset": 1473
                     }
                 }
             },
@@ -676,13 +676,13 @@
                     "endOffset": 5435
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
-                        "startOffset": 2013,
+                        "startOffset": 2014,
                         "endColumn": 39,
-                        "endOffset": 2048
+                        "endOffset": 2049
                     }
                 }
             },
@@ -691,17 +691,17 @@
                     "startLine": 75,
                     "startColumn": 4,
                     "startOffset": 5440,
-                    "endColumn": 46,
-                    "endOffset": 5482
+                    "endColumn": 47,
+                    "endOffset": 5483
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
                         "startOffset": 965,
-                        "endColumn": 46,
-                        "endOffset": 1007
+                        "endColumn": 47,
+                        "endOffset": 1008
                     }
                 }
             },
@@ -709,12 +709,12 @@
                 "to": {
                     "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 5487,
+                    "startOffset": 5488,
                     "endColumn": 49,
-                    "endOffset": 5532
+                    "endOffset": 5533
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -728,12 +728,12 @@
                 "to": {
                     "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 5537,
+                    "startOffset": 5538,
                     "endColumn": 125,
-                    "endOffset": 5658
+                    "endOffset": 5659
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -747,12 +747,12 @@
                 "to": {
                     "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 5663,
+                    "startOffset": 5664,
                     "endColumn": 155,
-                    "endOffset": 5814
+                    "endOffset": 5815
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -766,12 +766,12 @@
                 "to": {
                     "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 5819,
+                    "startOffset": 5820,
                     "endColumn": 124,
-                    "endOffset": 5939
+                    "endOffset": 5940
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -785,12 +785,12 @@
                 "to": {
                     "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 5944,
+                    "startOffset": 5945,
                     "endColumn": 138,
-                    "endOffset": 6078
+                    "endOffset": 6079
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -804,12 +804,12 @@
                 "to": {
                     "startLine": 81,
                     "startColumn": 4,
-                    "startOffset": 6083,
+                    "startOffset": 6084,
                     "endColumn": 123,
-                    "endOffset": 6202
+                    "endOffset": 6203
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -823,12 +823,12 @@
                 "to": {
                     "startLine": 82,
                     "startColumn": 4,
-                    "startOffset": 6207,
+                    "startOffset": 6208,
                     "endColumn": 187,
-                    "endOffset": 6390
+                    "endOffset": 6391
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -842,12 +842,12 @@
                 "to": {
                     "startLine": 83,
                     "startColumn": 4,
-                    "startOffset": 6395,
+                    "startOffset": 6396,
                     "endColumn": 189,
-                    "endOffset": 6580
+                    "endOffset": 6581
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -861,12 +861,12 @@
                 "to": {
                     "startLine": 84,
                     "startColumn": 4,
-                    "startOffset": 6585,
+                    "startOffset": 6586,
                     "endColumn": 122,
-                    "endOffset": 6703
+                    "endOffset": 6704
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -880,12 +880,12 @@
                 "to": {
                     "startLine": 85,
                     "startColumn": 4,
-                    "startOffset": 6708,
+                    "startOffset": 6709,
                     "endColumn": 164,
-                    "endOffset": 6868
+                    "endOffset": 6869
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -899,12 +899,12 @@
                 "to": {
                     "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 6873,
+                    "startOffset": 6874,
                     "endColumn": 93,
-                    "endOffset": 6962
+                    "endOffset": 6963
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -918,12 +918,12 @@
                 "to": {
                     "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 6967,
+                    "startOffset": 6968,
                     "endColumn": 136,
-                    "endOffset": 7099
+                    "endOffset": 7100
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -937,12 +937,12 @@
                 "to": {
                     "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 7104,
+                    "startOffset": 7105,
                     "endColumn": 140,
-                    "endOffset": 7240
+                    "endOffset": 7241
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -956,12 +956,12 @@
                 "to": {
                     "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 7245,
+                    "startOffset": 7246,
                     "endColumn": 89,
-                    "endOffset": 7330
+                    "endOffset": 7331
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 4,
@@ -975,12 +975,12 @@
                 "to": {
                     "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 7335,
+                    "startOffset": 7336,
                     "endColumn": 155,
-                    "endOffset": 7486
+                    "endOffset": 7487
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -994,12 +994,12 @@
                 "to": {
                     "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 7491,
+                    "startOffset": 7492,
                     "endColumn": 147,
-                    "endOffset": 7634
+                    "endOffset": 7635
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1013,12 +1013,12 @@
                 "to": {
                     "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 7639,
+                    "startOffset": 7640,
                     "endColumn": 102,
-                    "endOffset": 7737
+                    "endOffset": 7738
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1032,12 +1032,12 @@
                 "to": {
                     "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 7742,
+                    "startOffset": 7743,
                     "endColumn": 110,
-                    "endOffset": 7848
+                    "endOffset": 7849
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 4,
@@ -1051,12 +1051,12 @@
                 "to": {
                     "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 7853,
+                    "startOffset": 7854,
                     "endColumn": 162,
-                    "endOffset": 8011
+                    "endOffset": 8012
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 4,
@@ -1070,12 +1070,12 @@
                 "to": {
                     "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 8016,
+                    "startOffset": 8017,
                     "endColumn": 216,
-                    "endOffset": 8228
+                    "endOffset": 8229
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 4,
@@ -1089,12 +1089,12 @@
                 "to": {
                     "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 8233,
+                    "startOffset": 8234,
                     "endColumn": 94,
-                    "endOffset": 8323
+                    "endOffset": 8324
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
@@ -1108,12 +1108,12 @@
                 "to": {
                     "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 8328,
+                    "startOffset": 8329,
                     "endColumn": 104,
-                    "endOffset": 8428
+                    "endOffset": 8429
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 4,
@@ -1127,12 +1127,12 @@
                 "to": {
                     "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 8433,
+                    "startOffset": 8434,
                     "endColumn": 155,
-                    "endOffset": 8584
+                    "endOffset": 8585
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -1146,12 +1146,12 @@
                 "to": {
                     "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 8589,
+                    "startOffset": 8590,
                     "endColumn": 124,
-                    "endOffset": 8709
+                    "endOffset": 8710
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -1165,12 +1165,12 @@
                 "to": {
                     "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 8714,
+                    "startOffset": 8715,
                     "endColumn": 61,
-                    "endOffset": 8771
+                    "endOffset": 8772
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 4,
@@ -1184,12 +1184,12 @@
                 "to": {
                     "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 8776,
+                    "startOffset": 8777,
                     "endColumn": 78,
-                    "endOffset": 8850
+                    "endOffset": 8851
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\common_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/common_strings.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 4,
@@ -1203,12 +1203,12 @@
                 "to": {
                     "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 8855,
+                    "startOffset": 8856,
                     "endColumn": 55,
-                    "endOffset": 8906
+                    "endOffset": 8907
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1222,18 +1222,18 @@
                 "to": {
                     "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 8911,
+                    "startOffset": 8912,
                     "endColumn": 364,
-                    "endOffset": 9271
+                    "endOffset": 9272
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
-                        "startOffset": 2210,
+                        "startOffset": 2211,
                         "endColumn": 364,
-                        "endOffset": 2570
+                        "endOffset": 2571
                     }
                 }
             },
@@ -1241,18 +1241,18 @@
                 "to": {
                     "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 9276,
+                    "startOffset": 9277,
                     "endColumn": 75,
-                    "endOffset": 9347
+                    "endOffset": 9348
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
-                        "startOffset": 2575,
+                        "startOffset": 2576,
                         "endColumn": 75,
-                        "endOffset": 2646
+                        "endOffset": 2647
                     }
                 }
             },
@@ -1260,18 +1260,18 @@
                 "to": {
                     "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 9352,
+                    "startOffset": 9353,
                     "endColumn": 124,
-                    "endOffset": 9472
+                    "endOffset": 9473
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
-                        "startOffset": 2085,
+                        "startOffset": 2086,
                         "endColumn": 124,
-                        "endOffset": 2205
+                        "endOffset": 2206
                     }
                 }
             },
@@ -1279,18 +1279,18 @@
                 "to": {
                     "startLine": 106,
                     "startColumn": 4,
-                    "startOffset": 9477,
+                    "startOffset": 9478,
                     "endColumn": 67,
-                    "endOffset": 9540
+                    "endOffset": 9541
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
-                        "startOffset": 2651,
+                        "startOffset": 2652,
                         "endColumn": 67,
-                        "endOffset": 2714
+                        "endOffset": 2715
                     }
                 }
             },
@@ -1298,18 +1298,18 @@
                 "to": {
                     "startLine": 107,
                     "startColumn": 4,
-                    "startOffset": 9545,
+                    "startOffset": 9546,
                     "endColumn": 44,
-                    "endOffset": 9585
+                    "endOffset": 9586
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/strings.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
-                        "startOffset": 1897,
+                        "startOffset": 1898,
                         "endColumn": 52,
-                        "endOffset": 1945
+                        "endOffset": 1946
                     }
                 }
             },
@@ -1317,12 +1317,12 @@
                 "to": {
                     "startLine": 108,
                     "startColumn": 4,
-                    "startOffset": 9590,
+                    "startOffset": 9591,
                     "endColumn": 189,
-                    "endOffset": 9775
+                    "endOffset": 9776
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_strings.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1337,13 +1337,13 @@
                 "to": {
                     "startLine": 109,
                     "startColumn": 4,
-                    "startOffset": 9780,
+                    "startOffset": 9781,
                     "endLine": 116,
                     "endColumn": 12,
-                    "endOffset": 10238
+                    "endOffset": 10239
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\res\\values\\styles.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/res/values/styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1358,13 +1358,13 @@
                 "to": {
                     "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 10243,
+                    "startOffset": 10244,
                     "endLine": 124,
                     "endColumn": 12,
-                    "endOffset": 10767
+                    "endOffset": 10768
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_styles.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_styles.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1379,13 +1379,13 @@
                 "to": {
                     "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 10772,
+                    "startOffset": 10773,
                     "endLine": 127,
                     "endColumn": 12,
-                    "endOffset": 10951
+                    "endOffset": 10952
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_styles.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_styles.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1400,13 +1400,13 @@
                 "to": {
                     "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 10956,
+                    "startOffset": 10957,
                     "endLine": 135,
                     "endColumn": 12,
-                    "endOffset": 11480
+                    "endOffset": 11481
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_styles.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_styles.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1421,13 +1421,13 @@
                 "to": {
                     "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 11485,
+                    "startOffset": 11486,
                     "endLine": 148,
                     "endColumn": 12,
-                    "endOffset": 12478
+                    "endOffset": 12479
                 },
                 "from": {
-                    "file": "C:\\Users\\Denis\\AndroidStudioProjects\\Pheidippides\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services\\4.4.52\\res\\values\\wallet_styles.xml",
+                    "file": "/home/fklezin/AndroidStudioProjects/Pheidippides/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values/wallet_styles.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
