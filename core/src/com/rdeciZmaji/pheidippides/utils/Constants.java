@@ -42,7 +42,7 @@ public class Constants {
     public static final float RUNNER_DENSITY = 0.5f;
     public static final float RUNNER_DODGE_X = 2f;
     public static final float RUNNER_DODGE_Y = 1.5f;
-    public static final Vector2 RUNNER_JUMPING_LINEAR_IMPULSE = new Vector2(0, 13f);
+    public static Vector2 RUNNER_JUMPING_LINEAR_IMPULSE = new Vector2(0, 13f);
     public static final float RUNNER_HIT_ANGULAR_IMPULSE = 10f;
 
     public static final float ENEMY_X = 25f;
@@ -87,6 +87,7 @@ public class Constants {
     public static final String PAUSE_REGION_NAME = "pause";
     public static final String PLAY_REGION_NAME = "play";
     public static final String BIG_PLAY_REGION_NAME = "play_big";
+    public static final String RUNNER_NAME = "runner";
     public static final String LEADERBOARD_REGION_NAME = "leaderboard";
     public static final String ABOUT_REGION_NAME = "about";
     public static final String CLOSE_REGION_NAME = "close";

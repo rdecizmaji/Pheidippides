@@ -17,6 +17,7 @@
 package com.rdeciZmaji.pheidippides.actors;
 
 import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.rdeciZmaji.pheidippides.box2d.UserData;
@@ -32,6 +33,7 @@ public abstract class GameActor extends Actor {
 
     public GameActor(Body body) {
         this.body = body;
+        Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 25f);
         this.userData = (UserData) body.getUserData();
         screenRectangle = new Rectangle();
     }

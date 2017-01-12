@@ -21,6 +21,7 @@ import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.rdeciZmaji.pheidippides.box2d.RunnerUserData;
 import com.rdeciZmaji.pheidippides.enums.GameState;
@@ -40,7 +41,7 @@ public class Runner extends GameActor {
     private TextureRegion dodgingTexture;
     private TextureRegion hitTexture;
     private float stateTime;
-
+    private int i;
     private Sound jumpSound;
     private Sound hitSound;
 
@@ -48,6 +49,7 @@ public class Runner extends GameActor {
 
     public Runner(Body body, int i) {
         super(body);
+        this.i=i;
         jumpCount = 0;
         stateTime = 0f;
         if(i==1){
@@ -57,12 +59,14 @@ public class Runner extends GameActor {
             hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
         }
         else if(i==2){
+            Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 10f);
             runningAnimation = AssetsManager.getAnimation(Constants.FLYING_SMALL_ENEMY_ASSETS_ID);
             jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
             dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
             hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
         }
         else{
+            Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 13f);
             runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID);
             jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
             dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);

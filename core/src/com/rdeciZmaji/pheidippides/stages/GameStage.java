@@ -514,10 +514,6 @@ public class GameStage extends Stage implements ContactListener {
             clear();
             setUpStageBase();
             setUpIzberi();
-            //setUpCharacters();
-            //setUpPause();
-            //setUpTutorial();
-            //onGameResumed();
         }
 
     }
