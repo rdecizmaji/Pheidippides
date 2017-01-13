@@ -31,10 +31,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file(loadProperty("GAMESTUDIO24_RELEASE_KEYSTORE_PATH") ?: signingConfigs.debug.storeFile)
-            storePassword loadProperty("GAMESTUDIO24_RELEASE_PASSWORD") ?: signingConfigs.debug.storePassword
-            keyAlias loadProperty("GAMESTUDIO24_RELEASE_KEY_ALIAS") ?: signingConfigs.debug.keyAlias
-            keyPassword loadProperty("GAMESTUDIO24_RELEASE_KEY_PASSWORD") ?: signingConfigs.debug.keyPassword
+
         }
     }
 
