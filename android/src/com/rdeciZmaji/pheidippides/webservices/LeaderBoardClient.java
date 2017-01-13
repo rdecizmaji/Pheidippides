@@ -28,4 +28,20 @@ public class LeaderBoardClient {
 
         return null;
     }
+
+    public boolean insertRecord(Record r){
+
+        ServiceClient ws = new ServiceClient("http://193.77.150.15:48529/_db/pheidippides/phe/insertRecord", ServiceClient.RequestMethod.POST);
+        ws.addParam("user",r.getJSONString());
+        try {
+            JSONObject response = ws.requestJson();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            System.out.println("Something wrong with connection");
+            return false;
+        }
+
+        return true;
+    }
 }
