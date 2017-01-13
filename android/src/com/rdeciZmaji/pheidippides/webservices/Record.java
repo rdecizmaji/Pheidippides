@@ -1,5 +1,8 @@
 package com.rdeciZmaji.pheidippides.webservices;
 
+import android.content.Context;
+import android.telephony.TelephonyManager;
+
 import org.json.JSONObject;
 
 /**
@@ -7,15 +10,15 @@ import org.json.JSONObject;
  */
 
 public class Record {
-    private String score;
+    private int score;
     private String nickname;
-    private String mac;
+    private String id;
     private long epoch;
 
-    public Record(String score, String nickname, String mac, long epoch) {
+    public Record(int score, String nickname, String id, long epoch) {
         this.score = score;
         this.nickname = nickname;
-        this.mac = mac;
+        this.id = id;
         this.epoch = epoch;
     }
 
@@ -28,7 +31,7 @@ public class Record {
         json="{" +
                 "'score':"+score+
                 ",'nickname':"+ "'" +nickname + "'" +
-                ",'mac':"+ "'" +mac + "'" +
+                ",'id':"+ "'" +id + "'" +
                 ",'epoch':"+ "'" +epoch + "'" +
               "}";
 
