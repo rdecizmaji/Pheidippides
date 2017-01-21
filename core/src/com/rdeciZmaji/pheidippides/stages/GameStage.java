@@ -475,7 +475,6 @@ public class GameStage extends Stage implements ContactListener {
     }
 
     private void displayAd() {
-        GameManager.getInstance().displayAd();
     }
 
     @Override

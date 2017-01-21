@@ -167,16 +167,6 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
     }
 
     @Override
-    public void displayAd() {
-        mAdView.setVisibility(View.VISIBLE);
-    }
-
-    @Override
-    public void hideAd() {
-        mAdView.setVisibility(View.GONE);
-    }
-
-    @Override
     public void submitScore(int score) {
         if (gameHelper.isSignedIn()) {
             Games.Leaderboards.submitScore(gameHelper.getApiClient(),
@@ -219,76 +209,6 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
         startActivity(Intent.createChooser(share, Constants.SHARE_TITLE));
     }
 
-    @Override
-    public void unlockAchievement(String id) {
-        if (gameHelper.isSignedIn()) {
-            Games.Achievements.unlock(gameHelper.getApiClient(), id);
-            GameManager.getInstance().setAchievementUnlocked(id);
-        }
-    }
-
-    @Override
-    public void incrementAchievement(String id, int steps) {
-        if (gameHelper.isSignedIn()) {
-            Games.Achievements.increment(gameHelper.getApiClient(), id, steps);
-            GameManager.getInstance().incrementAchievementCount(id, steps);
-        }
-    }
-
-    @Override
-    public String getGettingStartedAchievementId() {
-        return getString(R.string.achievement_getting_started);
-    }
-
-    @Override
-    public String getLikeARoverAchievementId() {
-        return getString(R.string.achievement_like_a_rover);
-    }
-
-    @Override
-    public String getSpiritAchievementId() {
-        return getString(R.string.achievement_spirit);
-    }
-
-    @Override
-    public String getCuriosityAchievementId() {
-        return getString(R.string.achievement_curiosity);
-    }
-
-    @Override
-    public String get5kClubAchievementId() {
-        return getString(R.string.achievement_5k_club);
-    }
-
-    @Override
-    public String get10kClubAchievementId() {
-        return getString(R.string.achievement_10k_club);
-    }
-
-    @Override
-    public String get25kClubAchievementId() {
-        return getString(R.string.achievement_25k_club);
-    }
-
-    @Override
-    public String get50kClubAchievementId() {
-        return getString(R.string.achievement_50k_club);
-    }
-
-    @Override
-    public String get10JumpStreetAchievementId() {
-        return getString(R.string.achievement_10_jump_street);
-    }
-
-    @Override
-    public String get100JumpStreetAchievementId() {
-        return getString(R.string.achievement_100_jump_street);
-    }
-
-    @Override
-    public String get500JumpStreetAchievementId() {
-        return getString(R.string.achievement_500_jump_street);
-    }
 
     private String getAdMobUnitId() {
         return getString(R.string.ad_unit_id);
