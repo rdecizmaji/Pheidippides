@@ -41,26 +41,27 @@ public class Runner extends GameActor {
     private TextureRegion dodgingTexture;
     private TextureRegion hitTexture;
     private float stateTime;
-    private int i;
+    private static int i;
     private Sound jumpSound;
     private Sound hitSound;
 
     private int jumpCount;
 
-    public Runner(Body body, int i) {
+    public Runner(Body body, int si) {
         super(body);
-        this.i=i;
+        i=si;
         jumpCount = 0;
         stateTime = 0f;
         if(i==1){
-            runningAnimation = AssetsManager.getAnimation(Constants.FLYING_WIDE_ENEMY_ASSETS_ID);
+            Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 25f);
+            runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID);
             jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
             dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
             hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
         }
         else if(i==2){
-            Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 10f);
-            runningAnimation = AssetsManager.getAnimation(Constants.FLYING_SMALL_ENEMY_ASSETS_ID);
+            Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 18f);
+            runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID);
             jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
             dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
             hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
@@ -104,7 +105,7 @@ public class Runner extends GameActor {
 
     @Override
     public RunnerUserData getUserData() {
-        return (RunnerUserData) userData;
+       return (RunnerUserData) userData;
     }
 
     public void jump() {
@@ -153,7 +154,15 @@ public class Runner extends GameActor {
 
     public void onDifficultyChange(Difficulty newDifficulty) {
         setGravityScale(newDifficulty.getRunnerGravityScale());
-        getUserData().setJumpingLinearImpulse(newDifficulty.getRunnerJumpingLinearImpulse());
+        Vector2 v1=null;
+        if(i==1){
+            v1= new Vector2(0, 25f);
+        }else if(i==2){
+            v1= new Vector2(0, 18f);
+        }else{
+            v1= new Vector2(0, 13f);
+        }
+        getUserData().setJumpingLinearImpulse(v1);
     }
 
     public void setGravityScale(float gravityScale) {

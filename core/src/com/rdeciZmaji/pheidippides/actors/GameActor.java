@@ -33,7 +33,6 @@ public abstract class GameActor extends Actor {
 
     public GameActor(Body body) {
         this.body = body;
-        Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 25f);
         this.userData = (UserData) body.getUserData();
         screenRectangle = new Rectangle();
     }
