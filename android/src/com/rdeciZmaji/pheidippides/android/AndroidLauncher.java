@@ -44,7 +44,7 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
     private static String SAVED_LEADERBOARD_REQUESTED = "SAVED_LEADERBOARD_REQUESTED";
     private static String SAVED_ACHIEVEMENTS_REQUESTED = "SAVED_ACHIEVEMENTS_REQUESTED";
 
-    private GameHelper gameHelper;
+
 
     private AdView mAdView;
     private boolean mLeaderboardRequested;
@@ -77,29 +77,24 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
 
         setContentView(layout);
 
-        gameHelper = new GameHelper(this, GameHelper.CLIENT_GAMES);
-        gameHelper.setup(this);
-        gameHelper.setMaxAutoSignInAttempts(0);
+
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        gameHelper.onStart(this);
         GoogleAnalytics.getInstance(this).reportActivityStart(this);
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        gameHelper.onStop();
         GoogleAnalytics.getInstance(this).reportActivityStop(this);
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        gameHelper.onActivityResult(requestCode, resultCode, data);
     }
 
     @Override
@@ -168,40 +163,25 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
 
     @Override
     public void submitScore(int score) {
-        if (gameHelper.isSignedIn()) {
-            Games.Leaderboards.submitScore(gameHelper.getApiClient(),
-                    getString(R.string.leaderboard_high_scores), score);
-        } else {
-            GameManager.getInstance().saveScore(score);
-        }
+
     }
 
     @Override
     public void displayLeaderboard() {
-        if (gameHelper.isSignedIn()) {
-            startActivityForResult(Games.Leaderboards.getLeaderboardIntent(gameHelper.getApiClient(),
-                    getString(R.string.leaderboard_high_scores)), 24);
-        } else {
-            gameHelper.beginUserInitiatedSignIn();
-            mLeaderboardRequested = true;
-        }
+
+        //KLIC NA FUNKCIJO ZA PRIKAZ LB
+        System.out.println("*****");
+        System.out.println(getString(R.string.leaderboard_high_scores));
+        System.out.println("*****");
     }
 
     @Override
     public void displayAchievements() {
-        if (gameHelper.isSignedIn()) {
-            startActivityForResult(
-                    Games.Achievements.getAchievementsIntent(gameHelper.getApiClient()), 25);
-        } else {
-            gameHelper.beginUserInitiatedSignIn();
-            mAchievementsRequested = true;
-        }
     }
 
     @Override
     public void share() {
-        String url = String.format("http://play.google.com/store/apps/details?id=%s",
-                BuildConfig.APPLICATION_ID);
+        String url = "www.fidipidis.si";
         String message = String.format(Constants.SHARE_MESSAGE_PREFIX, url);
         Intent share = new Intent(Intent.ACTION_SEND);
         share.setType("text/plain");
