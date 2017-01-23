@@ -31,11 +31,6 @@ import com.rdeciZmaji.pheidippides.Pheidippides;
 import com.rdeciZmaji.pheidippides.utils.Constants;
 import com.rdeciZmaji.pheidippides.utils.GameEventListener;
 import com.rdeciZmaji.pheidippides.utils.GameManager;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.analytics.GoogleAnalytics;
-import com.google.android.gms.games.Games;
 import com.google.games.basegameutils.GameHelper;
 
 public class AndroidLauncher extends AndroidApplication implements GameHelper.GameHelperListener,
@@ -75,13 +70,11 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
     @Override
     protected void onStart() {
         super.onStart();
-        GoogleAnalytics.getInstance(this).reportActivityStart(this);
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        GoogleAnalytics.getInstance(this).reportActivityStop(this);
     }
 
     @Override
@@ -103,20 +96,7 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
         mAchievementsRequested = savedInstanceState.getBoolean(SAVED_ACHIEVEMENTS_REQUESTED, false);
     }
 
-    private AdRequest createAdRequest() {
-        return new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-    }
-
-    private AdView createAdView() {
-        AdView adView = new AdView(this);
-
-        adView.setAdSize(AdSize.SMART_BANNER);
-        adView.setAdUnitId(getAdMobUnitId());
-
-        return adView;
-    }
+  
 
     private RelativeLayout.LayoutParams getAdParams() {
         RelativeLayout.LayoutParams adParams = new RelativeLayout.LayoutParams(
@@ -155,7 +135,7 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
 
     @Override
     public void submitScore(int score) {
-
+        int i=4;
     }
 
     @Override
