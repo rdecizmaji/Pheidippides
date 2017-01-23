@@ -109,7 +109,7 @@ public class Constants {
     public static final String FONT_NAME = "Trajan_Pro.ttf";
 
     public static final String ABOUT_TEXT = "Developed by: Florijan, Denis, Špela\nPowered by: " +
-            "@libgdx\nGraphics: @kenneywings\nMusic: Ceca - Ime i prezime";
+            "@libgdx\nMusic: Ceca - Ime i prezime";
     public static final String SHARE_MESSAGE_PREFIX = "Check out " + GAME_NAME + " %s";
     public static final String SHARE_TITLE = "Share!";
     public static final String PAUSED_LABEL = "Paused";
