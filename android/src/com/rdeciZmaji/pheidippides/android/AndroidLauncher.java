@@ -44,9 +44,6 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
     private static String SAVED_LEADERBOARD_REQUESTED = "SAVED_LEADERBOARD_REQUESTED";
     private static String SAVED_ACHIEVEMENTS_REQUESTED = "SAVED_ACHIEVEMENTS_REQUESTED";
 
-
-
-    private AdView mAdView;
     private boolean mLeaderboardRequested;
     private boolean mAchievementsRequested;
 
@@ -69,11 +66,6 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
         View gameView = initializeForView(new Pheidippides(this), config);
         layout.addView(gameView);
 
-
-        mAdView = createAdView();
-        mAdView.loadAd(createAdRequest());
-
-        layout.addView(mAdView, getAdParams());
 
         setContentView(layout);
 
