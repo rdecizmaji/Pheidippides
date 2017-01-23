@@ -51,13 +51,21 @@ public class Constants {
     public static final float RUNNING_LONG_ENEMY_Y = 2f;
     public static final float FLYING_ENEMY_Y = 3f;
     public static final Vector2 ENEMY_LINEAR_VELOCITY = new Vector2(-10f, 0);
-
+    public static String SPRITES_ATLAS_PATH = "sprites.txt";
     public static final String BACKGROUND_ASSETS_ID = "background";
     public static final String GROUND_ASSETS_ID = "ground";
     public static final String RUNNER_RUNNING_ASSETS_ID = "runner_running";
     public static final String RUNNER_DODGING_ASSETS_ID = "runner_dodging";
     public static final String RUNNER_HIT_ASSETS_ID = "runner_hit";
     public static final String RUNNER_JUMPING_ASSETS_ID = "runner_jumping";
+    public static final String RUNNER_RUNNING_ASSETS_ID_GREEN = "runner_running_green";
+    public static final String RUNNER_DODGING_ASSETS_ID_GREEN = "runner_dodging_green";
+    public static final String RUNNER_HIT_ASSETS_ID_GREEN = "runner_hit_green";
+    public static final String RUNNER_JUMPING_ASSETS_ID_GREEN = "runner_jumping_green";
+    public static final String RUNNER_RUNNING_ASSETS_ID_BLUE = "runner_running_blue";
+    public static final String RUNNER_DODGING_ASSETS_ID_BLUE = "runner_dodging_blue";
+    public static final String RUNNER_HIT_ASSETS_ID_BLUE = "runner_hit_blue";
+    public static final String RUNNER_JUMPING_ASSETS_ID_BLUE = "runner_jumping_blue";
     public static final String RUNNING_SMALL_ENEMY_ASSETS_ID = "running_small_enemy";
     public static final String RUNNING_LONG_ENEMY_ASSETS_ID = "running_long_enemy";
     public static final String RUNNING_BIG_ENEMY_ASSETS_ID = "running_big_enemy";
@@ -67,18 +75,25 @@ public class Constants {
 
     public static final String BACKGROUND_IMAGE_PATH = "background.png";
     public static final String GROUND_IMAGE_PATH = "ground.png";
-    public static final String SPRITES_ATLAS_PATH = "sprites.txt";
     public static final String[] RUNNER_RUNNING_REGION_NAMES = new String[] {"tekac3","tekac4","alienBeige_hit"};
+    public static final String[] RUNNER_RUNNING_REGION_NAMES_GREEN = new String[] {"tekac6","tekac9","tekac8","tekac9"};
+    public static final String[] RUNNER_RUNNING_REGION_NAMES_BLUE = new String[] {"tekac10","tekac12","tekac13"};
     public static final String RUNNER_DODGING_REGION_NAME = "alienBeige_dodge";
+    public static final String RUNNER_DODGING_REGION_NAME_GREEN = "tekac7";
+    public static final String RUNNER_DODGING_REGION_NAME_BLUE = "tekac11";
     public static final String RUNNER_HIT_REGION_NAME = "alienBeige_hit";
+    public static final String RUNNER_HIT_REGION_NAME_GREEN = "tekac6";
+    public static final String RUNNER_HIT_REGION_NAME_BLUE = "tekac10";
     public static final String RUNNER_JUMPING_REGION_NAME = "alienBeige_jump";
+    public static final String RUNNER_JUMPING_REGION_NAME_GREEN = "tekac5";
+    public static final String RUNNER_JUMPING_REGION_NAME_BLUE = "tekac15";
 
     public static final String[] RUNNING_SMALL_ENEMY_REGION_NAMES = new String[] {"barnacle_bite1"};
     //kip1
     public static final String[] RUNNING_LONG_ENEMY_REGION_NAMES = new String[] {"barnacle_bite1"};
     //kamen
     public static final String[] RUNNING_BIG_ENEMY_REGION_NAMES = new String[] {"spider_walk1"};
-    public static final String[] RUNNING_WIDE_ENEMY_REGION_NAMES = new String[] {"worm_walk1", "worm_walk2"};
+    public static final String[] RUNNING_WIDE_ENEMY_REGION_NAMES = new String[] {"konjcek1", "konjcek2"};
     public static final String[] FLYING_SMALL_ENEMY_REGION_NAMES = new String[] {"bee_fly1"};
     public static final String[] FLYING_WIDE_ENEMY_REGION_NAMES = new String[] {"bee_fly1"};
     //kopija
