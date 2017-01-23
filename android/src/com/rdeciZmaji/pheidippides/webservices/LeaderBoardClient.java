@@ -1,5 +1,6 @@
 package com.rdeciZmaji.pheidippides.webservices;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -18,7 +19,16 @@ public class LeaderBoardClient {
         ServiceClient ws = new ServiceClient("http://193.77.150.15:48529/_db/pheidippides/phe/leaderboard", ServiceClient.RequestMethod.POST);
 
         try {
-            JSONObject response = ws.requestJson();
+            String responseStr = ws.requestJson().getString("response");
+            JSONArray response = new JSONArray(responseStr);
+
+            leaderboard=new ArrayList<>();
+            for (int i=0; i<response.length();i++){
+                Record r = new Record(response.getJSONObject(i));
+                leaderboard.add(r);
+            }
+
+            return  leaderboard;
         } catch (IOException e) {
             e.printStackTrace();
         } catch (JSONException e) {

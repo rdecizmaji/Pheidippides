@@ -3,6 +3,7 @@ package com.rdeciZmaji.pheidippides.webservices;
 import android.content.Context;
 import android.telephony.TelephonyManager;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
@@ -23,7 +24,12 @@ public class Record {
     }
 
     public Record(JSONObject response){
-        //@TODO
+        try{
+            this.score= Integer.parseInt(response.getString("score"));
+            this.nickname= response.getString("user");
+        }catch (JSONException e){
+            e.printStackTrace();
+        }
     }
 
     public String getJSONString(){

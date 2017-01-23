@@ -32,6 +32,10 @@ import com.rdeciZmaji.pheidippides.utils.Constants;
 import com.rdeciZmaji.pheidippides.utils.GameEventListener;
 import com.rdeciZmaji.pheidippides.utils.GameManager;
 import com.google.games.basegameutils.GameHelper;
+import com.rdeciZmaji.pheidippides.webservices.LeaderBoardClient;
+import com.rdeciZmaji.pheidippides.webservices.Record;
+
+import java.util.ArrayList;
 
 public class AndroidLauncher extends AndroidApplication implements GameHelper.GameHelperListener,
         GameEventListener {
@@ -96,7 +100,7 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
         mAchievementsRequested = savedInstanceState.getBoolean(SAVED_ACHIEVEMENTS_REQUESTED, false);
     }
 
-  
+
 
     private RelativeLayout.LayoutParams getAdParams() {
         RelativeLayout.LayoutParams adParams = new RelativeLayout.LayoutParams(
@@ -140,11 +144,12 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
 
     @Override
     public void displayLeaderboard() {
+        LeaderBoardClient lbc=new LeaderBoardClient();
+        ArrayList<Record> leaderboard=lbc.getLeaderboard();
 
         //KLIC NA FUNKCIJO ZA PRIKAZ LB
         System.out.println("*****");
-        System.out.println(getString(R.string.leaderboard_high_scores));
-        System.out.println("*****");
+        System.out.println(leaderboard.toString());
     }
 
     @Override
