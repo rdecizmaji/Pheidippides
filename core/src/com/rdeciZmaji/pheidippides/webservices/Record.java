@@ -1,7 +1,5 @@
 package com.rdeciZmaji.pheidippides.webservices;
 
-import android.content.Context;
-import android.telephony.TelephonyManager;
 
 import org.json.JSONException;
 import org.json.JSONObject;
