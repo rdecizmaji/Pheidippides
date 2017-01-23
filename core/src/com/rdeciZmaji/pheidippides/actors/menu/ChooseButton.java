@@ -27,13 +27,13 @@ public class ChooseButton extends GameButton {
     @Override
     protected String getRegionName() {
         if(buttonNumber==1){
-            return Constants.RUNNER_DODGING_REGION_NAME;
-        }
-        else if(buttonNumber==2){
             return Constants.RUNNER_HIT_REGION_NAME;
         }
+        else if(buttonNumber==2){
+            return Constants.RUNNER_HIT_REGION_NAME_GREEN;
+        }
         else if(buttonNumber==3){
-            return Constants.RUNNER_JUMPING_REGION_NAME;
+            return Constants.RUNNER_HIT_REGION_NAME_BLUE;
         }
         return Constants.PLAY_REGION_NAME;
     }
