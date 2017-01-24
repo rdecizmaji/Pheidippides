@@ -23,13 +23,21 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
+import com.rdeciZmaji.pheidippides.baza.DAO;
+import com.rdeciZmaji.pheidippides.baza.Igra;
+import com.rdeciZmaji.pheidippides.baza.Igralec;
+import com.rdeciZmaji.pheidippides.baza.Level;
+import com.rdeciZmaji.pheidippides.baza.Lik;
 import com.rdeciZmaji.pheidippides.box2d.RunnerUserData;
+import com.rdeciZmaji.pheidippides.enums.Difficulty;
 import com.rdeciZmaji.pheidippides.enums.GameState;
+import com.rdeciZmaji.pheidippides.stages.GameStage;
 import com.rdeciZmaji.pheidippides.utils.AssetsManager;
 import com.rdeciZmaji.pheidippides.utils.AudioUtils;
 import com.rdeciZmaji.pheidippides.utils.Constants;
 import com.rdeciZmaji.pheidippides.utils.GameManager;
-import com.rdeciZmaji.pheidippides.enums.Difficulty;
+
+import java.util.List;
 
 public class Runner extends GameActor {
 
@@ -41,9 +49,11 @@ public class Runner extends GameActor {
     private TextureRegion dodgingTexture;
     private TextureRegion hitTexture;
     private float stateTime;
-    private static int i;
+    public static int i;
+    public static int sit;
     private Sound jumpSound;
     private Sound hitSound;
+    private Difficulty dif;
 
     private int jumpCount;
 
@@ -52,6 +62,7 @@ public class Runner extends GameActor {
         i=si;
         jumpCount = 0;
         stateTime = 0f;
+        Gdx.app.log("BUTTON", String.valueOf(i));
         if(i==1){
             Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 25f);
             runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID);
@@ -146,6 +157,56 @@ public class Runner extends GameActor {
         body.applyAngularImpulse(getUserData().getHitAngularImpulse(), true);
         hit = true;
         AudioUtils.getInstance().playSound(hitSound);
+
+        DAO d=new DAO();
+        d.open();
+        List<Igralec> igr=d.getIgralec();
+        Igralec ig=igr.get(igr.size()-1);
+        int lv=1;
+        if(dif!=null){
+            lv=dif.getLevel();
+        }
+        else{
+            lv=2;
+        }
+        int tocke=GameStage.score.getScore();
+        int level_fk=lv;
+        int igralec_fk= (int) ig.getId();
+        int lik_fk= i;
+        d.createIgra(tocke,level_fk, igralec_fk, lik_fk);
+
+        List<Igra> igre=d.getIgre();
+        for(int j=0; j<igre.size(); j++){
+           Igra igr1= igre.get(j);
+            Gdx.app.log("IGRA_ID", String.valueOf(igr1.getId()));
+            Gdx.app.log("IGRA_TOCKE", String.valueOf(igr1.getTocke()));
+            Gdx.app.log("IGRA_LEVEL_FK", String.valueOf(igr1.getLevel()));
+            Gdx.app.log("IGRA_IGRALEC_FK", String.valueOf(igr1.getIgralec()));
+            Gdx.app.log("IGRA_LIK_FK", String.valueOf(lik_fk));
+        }
+        List<Lik> liki=d.getLiki();
+        for(int j=0; j<liki.size(); j++){
+            Lik l=liki.get(j);
+            Gdx.app.log("LIK_ID", String.valueOf(l.getId()));
+            Gdx.app.log("LIK_NAZIV", String.valueOf(l.getNaziv()));
+            Gdx.app.log("LIK_SKOK", String.valueOf(l.getSkok()));
+        }
+        List<Igralec> igralci=d.getIgralec();
+        for(int j=0; j<igralci.size(); j++){
+            Igralec igr2=igralci.get(j);
+            Gdx.app.log("IGRALEC_ID", String.valueOf(igr2.getId()));
+            Gdx.app.log("IGRALEC_IME", String.valueOf(igr2.getIme()));
+            Gdx.app.log("IGRALEC_LOGIN", String.valueOf(igr2.getLogin()));
+        }
+        List<Level> level=d.getLevel();
+        for(int j=0; j<level.size(); j++){
+            Level lve=level.get(j);
+            Gdx.app.log("LEVEL_ID", String.valueOf(lve.getId()));
+            Gdx.app.log("LEVEL_NAZIV_LEVEL", String.valueOf(lve.getNaziv()));
+            Gdx.app.log("LEVEL_OVIRE", String.valueOf(lve.getOvire()));
+            Gdx.app.log("LEVEL_GRAVITACIJA", String.valueOf(lve.getGravitacija()));
+        }
+        d.close();
     }
 
     public boolean isHit() {
@@ -153,13 +214,17 @@ public class Runner extends GameActor {
     }
 
     public void onDifficultyChange(Difficulty newDifficulty) {
+        dif=newDifficulty;
         setGravityScale(newDifficulty.getRunnerGravityScale());
         Vector2 v1=null;
         if(i==1){
+
             v1= new Vector2(0, 25f);
         }else if(i==2){
+
             v1= new Vector2(0, 18f);
         }else{
+
             v1= new Vector2(0, 13f);
         }
         getUserData().setJumpingLinearImpulse(v1);

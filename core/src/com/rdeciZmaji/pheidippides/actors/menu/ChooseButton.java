@@ -10,7 +10,6 @@ import com.rdeciZmaji.pheidippides.utils.GameManager;
  */
 
 public class ChooseButton extends GameButton {
-
     public interface ChooseButtonListener {
         public void onChoose(int i);
     }

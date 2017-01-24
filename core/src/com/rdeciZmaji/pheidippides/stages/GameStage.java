@@ -82,7 +82,7 @@ public class GameStage extends Stage implements ContactListener {
     private ShareButton shareButton1;
     private AchievementsButton achievementsButton;
 
-    private Score score;
+    public static Score score;
     private float totalTimePassed;
     private boolean tutorialShown;
 

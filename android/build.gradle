@@ -1,7 +1,6 @@
 def loadProperty(name) {
     hasProperty(name) ? "${getProperty(name)}" : ""
 }
-
 android {
     buildToolsVersion "21.1.2"
     compileSdkVersion 21
@@ -41,13 +40,11 @@ android {
         }
     }
 }
-
 // needed to add JNI shared libraries to APK when compiling on CLI
 /*tasks.withType(com.android.build.gradle.tasks.PackageApplication) { pkgTask ->
     pkgTask.jniFolders = new HashSet<File>()
     pkgTask.jniFolders.add(new File(projectDir, 'libs'))
 }*/
-
 // called every time gradle gets executed, takes the native dependencies of
 // the natives configuration, and extracts them to the proper libs/ folders
 // so they get packed with the APK.
@@ -70,7 +67,6 @@ task copyAndroidNatives() {
         }
     }
 }
-
 task run(type: Exec) {
     def path
     def localProperties = project.file("../local.properties")
@@ -92,7 +88,6 @@ task run(type: Exec) {
     def adb = path + "/platform-tools/adb"
     commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.rdeciZmaji.pheidippides.android/AndroidLauncher'
 }
-
 // sets up the Android Eclipse project, using the old Ant based build.
 eclipse {
     // need to specify Java source sets explicitely, SpringSource Gradle Eclipse plugin
@@ -100,7 +95,7 @@ eclipse {
     sourceSets {
         main {
             java.srcDirs "src", 'gen'
-             }
+        }
     }
 
     jdt {
@@ -123,7 +118,6 @@ eclipse {
         buildCommand "com.android.ide.eclipse.adt.ApkBuilder"
     }
 }
-
 // sets up the Android Idea project, using the old Ant based build.
 idea {
     module {
@@ -145,4 +139,9 @@ idea {
             }
         }
     }
+}
+
+dependencies {
+    compile files('libs/gdx-sqlite-android.jar')
+    compile files('libs/gdx-sqlite.jar')
 }

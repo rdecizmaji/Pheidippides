@@ -79,6 +79,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/jars" />
@@ -109,6 +110,9 @@
     <orderEntry type="library" exported="" name="gdx-backend-android-1.1.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-4.4.52" level="project" />
     <orderEntry type="library" exported="" name="gdx-1.1.0" level="project" />
+    <orderEntry type="library" exported="" name="gdx-sqlite-android" level="project" />
+    <orderEntry type="library" exported="" name="gdx-sqlite" level="project" />
     <orderEntry type="module" module-name="core" exported="" />
+    <orderEntry type="library" exported="" name="android-android-21" level="project" />
   </component>
 </module>
