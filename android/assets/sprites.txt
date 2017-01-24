@@ -13,28 +13,28 @@ tekac_dodge
   rotate: false
   xy: 71, 301
   size: 67, 72
-  orig: 67, 72
+  orig: 77, 92
   offset: 0, 0
   index: -1
 tekac_hit
   rotate: false
   xy: 2, 301
   size: 67, 92
-  orig: 67, 92
+  orig: 77, 92
   offset: 0, 0
   index: -1
 tekac_jump
   rotate: false
   xy: 134, 206
   size: 66, 93
-  orig: 66, 93
+  orig: 76, 103
   offset: 0, 0
   index: -1
 alienBeige_run1
   rotate: false
   xy: 140, 301
   size: 68, 93
-  orig: 68, 93
+  orig: 78, 103
   offset: 0, 0
   index: -1
 alienBeige_run2
@@ -48,21 +48,21 @@ kamenje
   rotate: false
   xy: 55, 102
   size: 51, 57
-  orig: 51, 57
+  orig: 61, 67
   offset: 0, 0
   index: -1
 barnacle_bite2
   rotate: false
   xy: 2, 102
   size: 51, 58
-  orig: 51, 58
+  orig: 61, 68
   offset: 0, 0
   index: -1
 sulica
   rotate: false
   xy: 108, 102
   size: 56, 48
-  orig: 56, 48
+  orig: 66, 58
   offset: 0, 0
   index: -1
 sulica1
@@ -76,7 +76,7 @@ fly_fly1
   rotate: false
   xy: 166, 102
   size: 57, 45
-  orig: 57, 45
+  orig: 67, 55
   offset: 0, 0
   index: -1
 fly_fly2
@@ -237,14 +237,14 @@ konjcek1
    rotate: false
    xy: 1, 1418
    size: 98, 56
-   orig: 100, 60
+   orig: 130, 90
    offset: 0, 0
    index: -1
 konjcek2
    rotate: false
    xy: 102, 1415
    size: 98, 56
-   orig: 100, 60
+   orig: 130, 90
    offset: 0, 0
    index: -1
 close
