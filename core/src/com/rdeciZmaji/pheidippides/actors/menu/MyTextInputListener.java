@@ -16,6 +16,8 @@ public class MyTextInputListener implements Input.TextInputListener {
     public void input (String text) {
 
         if (text.length()>3&text.length()<15){
+
+
             LeaderBoardClient lbc=new LeaderBoardClient();
             lbc.insertRecord(new Record(this.score,text));
         }
