@@ -28,6 +28,7 @@ import com.badlogic.gdx.utils.viewport.ScalingViewport;
 import com.rdeciZmaji.pheidippides.actors.menu.ChooseButton;
 import com.rdeciZmaji.pheidippides.actors.menu.GameLabelC;
 import com.rdeciZmaji.pheidippides.actors.menu.LeaderboardLabel;
+import com.rdeciZmaji.pheidippides.actors.menu.MyTextInputListener;
 import com.rdeciZmaji.pheidippides.enums.GameState;
 import com.rdeciZmaji.pheidippides.actors.Background;
 import com.rdeciZmaji.pheidippides.actors.Enemy;
@@ -608,6 +609,11 @@ public class GameStage extends Stage implements ContactListener {
         GameManager.getInstance().resetDifficulty();
         totalTimePassed = 0;
         setUpMainMenu();
+
+        if (this.score.getScore()>0){
+            MyTextInputListener listener = new MyTextInputListener(this.score.getScore());
+            Gdx.input.getTextInput(listener, "Submit your score!", "");
+        }
     }
 
     private void onGameAbout() {

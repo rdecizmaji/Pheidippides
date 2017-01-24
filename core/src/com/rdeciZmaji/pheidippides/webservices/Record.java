@@ -30,11 +30,16 @@ public class Record {
         }
     }
 
+    public Record(int score, String nickname) {
+        this.score = score;
+        this.nickname=nickname;
+    }
+
     public String getJSONString(){
         String json;
         json="{" +
                 "'score':"+score+
-                ",'nickname':"+ "'" +nickname + "'" +
+                ",'user':"+ "'" +nickname + "'" +
                 ",'id':"+ "'" +id + "'" +
                 ",'epoch':"+ "'" +epoch + "'" +
               "}";
