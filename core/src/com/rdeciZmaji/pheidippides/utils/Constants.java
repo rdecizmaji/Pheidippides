@@ -121,6 +121,7 @@ public class Constants {
     public static final String RUNNER_HIT_SOUND = "hit.wav";
     public static final String GAME_MUSIC = "fun_in_a_bottle1.mp3";
     public static final String GAME_MUSIC_BONUS = "fun_in_a_bottle.mp3";
+    public static final String GAME_MUSIC_BONUS2 = "fun_in_the_bottle2.mp3";
     public static final String FONT_NAME = "Trajan_Pro.ttf";
 
     public static final String ABOUT_TEXT = "Developed by: Florijan, Denis, Špela\nPowered by: " +

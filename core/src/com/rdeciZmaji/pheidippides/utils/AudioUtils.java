@@ -26,6 +26,7 @@ public class AudioUtils {
     private static AudioUtils ourInstance = new AudioUtils();
     private static Music music;
     private static Music bonusmusic;
+    private static Music bonusmusic2;
     private static Sound jumpSound;
     private static Sound hitSound;
 
@@ -53,6 +54,7 @@ public class AudioUtils {
 
         music = Gdx.audio.newMusic(Gdx.files.internal(Constants.GAME_MUSIC));
         bonusmusic = Gdx.audio.newMusic(Gdx.files.internal(Constants.GAME_MUSIC_BONUS));
+        bonusmusic2 = Gdx.audio.newMusic(Gdx.files.internal(Constants.GAME_MUSIC_BONUS2));
         music.setLooping(true);
         bonusmusic.setLooping(true);
         playMusic();
@@ -70,6 +72,8 @@ public class AudioUtils {
         if (musicOn) {
             if(Ceca >= 10)
                 music = bonusmusic;
+            if(Ceca >= 15)
+                music = bonusmusic2;
             music.play();
         }
     }
