@@ -9,21 +9,21 @@ about
   orig: 48, 48
   offset: 0, 0
   index: -1
-alienBeige_dodge
+tekac_dodge
   rotate: false
   xy: 71, 301
   size: 67, 72
   orig: 67, 72
   offset: 0, 0
   index: -1
-alienBeige_hit
+tekac_hit
   rotate: false
   xy: 2, 301
   size: 67, 92
   orig: 67, 92
   offset: 0, 0
   index: -1
-alienBeige_jump
+tekac_jump
   rotate: false
   xy: 134, 206
   size: 66, 93
@@ -44,7 +44,7 @@ alienBeige_run2
   orig: 70, 96
   offset: 0, 0
   index: -1
-barnacle_bite1
+kamenje
   rotate: false
   xy: 55, 102
   size: 51, 57
@@ -58,14 +58,14 @@ barnacle_bite2
   orig: 51, 58
   offset: 0, 0
   index: -1
-bee_fly1
+sulica
   rotate: false
   xy: 108, 102
   size: 56, 48
   orig: 56, 48
   offset: 0, 0
   index: -1
-bee_fly2
+sulica1
   rotate: false
   xy: 126, 162
   size: 61, 42
@@ -156,6 +156,97 @@ tekac4
   orig: 70, 96
   offset: 0, 0
   index: -1
+tekac5
+   rotate: false
+   xy: 145, 1029
+   size: 76, 84
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac6
+   rotate: false
+   xy: 2, 1125
+   size: 62, 99
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac7
+   rotate: false
+   xy: 78, 1125
+   size: 54, 81
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac8
+   rotate: false
+   xy: 137, 1125
+   size: 68, 99
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac9
+   rotate: false
+   xy: 210, 1125
+   size: 47, 99
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac10
+   rotate: false
+   xy: 1, 1225
+   size: 63, 99
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac11
+   rotate: false
+   xy: 73, 1225
+   size: 52, 80
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac12
+   rotate: false
+   xy: 137, 1225
+   size: 65, 99
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac13
+   rotate: false
+   xy: 132, 1225
+   size: 65, 99
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac14
+   rotate: false
+   xy: 203, 1225
+   size: 46, 100
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+tekac15
+   rotate: false
+   xy: 1, 1320
+   size: 64, 85
+   orig: 70, 96
+   offset: 0, 0
+   index: -1
+konjcek1
+   rotate: false
+   xy: 1, 1418
+   size: 98, 56
+   orig: 100, 60
+   offset: 0, 0
+   index: -1
+konjcek2
+   rotate: false
+   xy: 102, 1415
+   size: 98, 56
+   orig: 100, 60
+   offset: 0, 0
+   index: -1
 close
   rotate: false
   xy: 2, 2
@@ -184,7 +275,7 @@ sound_on
   orig: 48, 48
   offset: 0, 0
   index: -1
-spider_walk1
+kamenje1
   rotate: false
   xy: 74, 396
   size: 72, 51

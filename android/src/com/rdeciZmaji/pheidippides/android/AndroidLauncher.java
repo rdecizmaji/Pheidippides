@@ -144,12 +144,7 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
 
     @Override
     public void displayLeaderboard() {
-        LeaderBoardClient lbc=new LeaderBoardClient();
-        ArrayList<Record> leaderboard=lbc.getLeaderboard();
 
-        //KLIC NA FUNKCIJO ZA PRIKAZ LB
-        System.out.println("*****");
-        System.out.println(leaderboard.toString());
     }
 
     @Override

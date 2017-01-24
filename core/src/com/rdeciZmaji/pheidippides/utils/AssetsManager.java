@@ -61,6 +61,24 @@ public class AssetsManager {
         animationsMap.put(Constants.RUNNER_RUNNING_ASSETS_ID, createAnimation(textureAtlas,
                 Constants.RUNNER_RUNNING_REGION_NAMES));
 
+        texturesMap.put(Constants.RUNNER_JUMPING_ASSETS_ID_GREEN,
+                textureAtlas.findRegion(Constants.RUNNER_JUMPING_REGION_NAME_GREEN));
+        texturesMap.put(Constants.RUNNER_DODGING_ASSETS_ID_GREEN,
+                textureAtlas.findRegion(Constants.RUNNER_DODGING_REGION_NAME_GREEN));
+        texturesMap.put(Constants.RUNNER_HIT_ASSETS_ID_GREEN,
+                textureAtlas.findRegion(Constants.RUNNER_HIT_REGION_NAME_GREEN));
+        animationsMap.put(Constants.RUNNER_RUNNING_ASSETS_ID_GREEN, createAnimation(textureAtlas,
+                Constants.RUNNER_RUNNING_REGION_NAMES_GREEN));
+
+        texturesMap.put(Constants.RUNNER_JUMPING_ASSETS_ID_BLUE,
+                textureAtlas.findRegion(Constants.RUNNER_JUMPING_REGION_NAME_BLUE));
+        texturesMap.put(Constants.RUNNER_DODGING_ASSETS_ID_BLUE,
+                textureAtlas.findRegion(Constants.RUNNER_DODGING_REGION_NAME_BLUE));
+        texturesMap.put(Constants.RUNNER_HIT_ASSETS_ID_BLUE,
+                textureAtlas.findRegion(Constants.RUNNER_HIT_REGION_NAME_BLUE));
+        animationsMap.put(Constants.RUNNER_RUNNING_ASSETS_ID_BLUE, createAnimation(textureAtlas,
+                Constants.RUNNER_RUNNING_REGION_NAMES_BLUE));
+
         // Enemies
         animationsMap.put(Constants.RUNNING_SMALL_ENEMY_ASSETS_ID, createAnimation(textureAtlas,
                 Constants.RUNNING_SMALL_ENEMY_REGION_NAMES));
@@ -141,5 +159,10 @@ public class AssetsManager {
         largeFont.dispose();
         texturesMap.clear();
         animationsMap.clear();
+    }
+    public static TextureAtlas setTextureAtlas(String textfile) {
+        textureAtlas = new TextureAtlas(textfile);
+        Constants.SPRITES_ATLAS_PATH = textureAtlas.toString();
+        return textureAtlas;
     }
 }

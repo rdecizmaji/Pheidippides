@@ -20,6 +20,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
@@ -54,6 +55,7 @@ public class Runner extends GameActor {
     private Sound jumpSound;
     private Sound hitSound;
     private Difficulty dif;
+    private TextureAtlas textureAtlas;
 
     private int jumpCount;
 
@@ -72,17 +74,17 @@ public class Runner extends GameActor {
         }
         else if(i==2){
             Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 18f);
-            runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID);
-            jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
-            dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
-            hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
+            runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID_GREEN);
+            jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID_GREEN);
+            dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID_GREEN);
+            hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID_GREEN);
         }
         else{
             Constants.RUNNER_JUMPING_LINEAR_IMPULSE= new Vector2(0, 13f);
-            runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID);
-            jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID);
-            dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID);
-            hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID);
+            runningAnimation = AssetsManager.getAnimation(Constants.RUNNER_RUNNING_ASSETS_ID_BLUE);
+            jumpingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_JUMPING_ASSETS_ID_BLUE);
+            dodgingTexture = AssetsManager.getTextureRegion(Constants.RUNNER_DODGING_ASSETS_ID_BLUE);
+            hitTexture = AssetsManager.getTextureRegion(Constants.RUNNER_HIT_ASSETS_ID_BLUE);
         }
 
         jumpSound = AudioUtils.getInstance().getJumpSound();
@@ -218,13 +220,10 @@ public class Runner extends GameActor {
         setGravityScale(newDifficulty.getRunnerGravityScale());
         Vector2 v1=null;
         if(i==1){
-
             v1= new Vector2(0, 25f);
         }else if(i==2){
-
             v1= new Vector2(0, 18f);
         }else{
-
             v1= new Vector2(0, 13f);
         }
         getUserData().setJumpingLinearImpulse(v1);
