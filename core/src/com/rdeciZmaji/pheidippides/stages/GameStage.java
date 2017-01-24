@@ -167,7 +167,7 @@ public class GameStage extends Stage implements ContactListener {
         setUpLeaderboard();
         setUpAbout();
         setUpShare();
-        setUpAchievements();
+        //setUpAchievements();
     }
 
     private void setUpStart() {

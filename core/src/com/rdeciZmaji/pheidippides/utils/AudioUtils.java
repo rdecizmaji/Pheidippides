@@ -25,11 +25,14 @@ public class AudioUtils {
 
     private static AudioUtils ourInstance = new AudioUtils();
     private static Music music;
+    private static Music bonusmusic;
     private static Sound jumpSound;
     private static Sound hitSound;
 
     private static final String MUSIC_ON_PREFERENCE = "music_on";
     private static final String SOUND_ON_PREFERENCE = "sound_on";
+
+    private int Ceca = 0;
 
     private AudioUtils() {
     }
@@ -47,8 +50,11 @@ public class AudioUtils {
     }
 
     public void init() {
+
         music = Gdx.audio.newMusic(Gdx.files.internal(Constants.GAME_MUSIC));
+        bonusmusic = Gdx.audio.newMusic(Gdx.files.internal(Constants.GAME_MUSIC_BONUS));
         music.setLooping(true);
+        bonusmusic.setLooping(true);
         playMusic();
         jumpSound = createSound(Constants.RUNNER_JUMPING_SOUND);
         hitSound = createSound(Constants.RUNNER_HIT_SOUND);
@@ -59,8 +65,11 @@ public class AudioUtils {
     }
 
     public void playMusic() {
+        Ceca++;
         boolean musicOn = getPreferences().getBoolean(MUSIC_ON_PREFERENCE, true);
         if (musicOn) {
+            if(Ceca >= 10)
+                music = bonusmusic;
             music.play();
         }
     }

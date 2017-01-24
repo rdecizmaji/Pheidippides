@@ -9,21 +9,21 @@ about
   orig: 48, 48
   offset: 0, 0
   index: -1
-alienBeige_dodge
+tekac_dodge
   rotate: false
   xy: 71, 301
   size: 67, 72
   orig: 67, 72
   offset: 0, 0
   index: -1
-alienBeige_hit
+tekac_hit
   rotate: false
   xy: 2, 301
   size: 67, 92
   orig: 67, 92
   offset: 0, 0
   index: -1
-alienBeige_jump
+tekac_jump
   rotate: false
   xy: 134, 206
   size: 66, 93
@@ -44,7 +44,7 @@ alienBeige_run2
   orig: 70, 96
   offset: 0, 0
   index: -1
-barnacle_bite1
+kamenje
   rotate: false
   xy: 55, 102
   size: 51, 57
@@ -58,14 +58,14 @@ barnacle_bite2
   orig: 51, 58
   offset: 0, 0
   index: -1
-bee_fly1
+sulica
   rotate: false
   xy: 108, 102
   size: 56, 48
   orig: 56, 48
   offset: 0, 0
   index: -1
-bee_fly2
+sulica1
   rotate: false
   xy: 126, 162
   size: 61, 42
@@ -275,7 +275,7 @@ sound_on
   orig: 48, 48
   offset: 0, 0
   index: -1
-spider_walk1
+kamenje1
   rotate: false
   xy: 74, 396
   size: 72, 51
