@@ -27,6 +27,8 @@ import com.badlogic.gdx.utils.Scaling;
 import com.badlogic.gdx.utils.viewport.ScalingViewport;
 import com.rdeciZmaji.pheidippides.actors.menu.ChooseButton;
 import com.rdeciZmaji.pheidippides.actors.menu.GameLabelC;
+import com.rdeciZmaji.pheidippides.actors.menu.LeaderboardLabel;
+import com.rdeciZmaji.pheidippides.actors.menu.MyTextInputListener;
 import com.rdeciZmaji.pheidippides.enums.GameState;
 import com.rdeciZmaji.pheidippides.actors.Background;
 import com.rdeciZmaji.pheidippides.actors.Enemy;
@@ -51,6 +53,10 @@ import com.rdeciZmaji.pheidippides.utils.BodyUtils;
 import com.rdeciZmaji.pheidippides.utils.Constants;
 import com.rdeciZmaji.pheidippides.utils.GameManager;
 import com.rdeciZmaji.pheidippides.utils.WorldUtils;
+import com.rdeciZmaji.pheidippides.webservices.LeaderBoardClient;
+import com.rdeciZmaji.pheidippides.webservices.Record;
+
+import java.util.ArrayList;
 
 public class GameStage extends Stage implements ContactListener {
 
@@ -116,6 +122,12 @@ public class GameStage extends Stage implements ContactListener {
         Rectangle gameLabelBounds = new Rectangle(0, getCamera().viewportHeight * 5 / 8,
                 getCamera().viewportWidth, getCamera().viewportHeight / 4);
         addActor(new AboutLabel(gameLabelBounds));
+    }
+
+    private void setUpLeaderboardText() {
+        Rectangle gameLabelBounds = new Rectangle(0, getCamera().viewportHeight * 5 / 8,
+                getCamera().viewportWidth, getCamera().viewportHeight / 4);
+        addActor(new LeaderboardLabel(gameLabelBounds));
     }
 
     /**
@@ -535,7 +547,16 @@ public class GameStage extends Stage implements ContactListener {
 
         @Override
         public void onLeaderboard() {
-            GameManager.getInstance().displayLeaderboard();
+
+            GameManager.getInstance().setGameState(GameState.LEADERBOARD);
+            clear();
+            setUpStageBase();
+            setUpGameLabel();
+            setUpLeaderboardText();
+            setUpAbout();
+
+            //GameManager.getInstance().displayLeaderboard();
+
         }
 
     }
@@ -588,6 +609,11 @@ public class GameStage extends Stage implements ContactListener {
         GameManager.getInstance().resetDifficulty();
         totalTimePassed = 0;
         setUpMainMenu();
+
+        if (this.score.getScore()>0){
+            MyTextInputListener listener = new MyTextInputListener(this.score.getScore());
+            Gdx.input.getTextInput(listener, "Submit your score!", "");
+        }
     }
 
     private void onGameAbout() {

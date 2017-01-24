@@ -12,6 +12,8 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import javax.script.ScriptEngineManager;
+
 /**
  * Created by fklezin on 13.1.2017.
  */
@@ -28,7 +30,7 @@ public class LeaderBoardClient {
             JSONArray response = new JSONArray(responseStr);
 
             leaderboard=new ArrayList<Record>();
-            for (int i=0; i<response.length();i++){
+            for (int i=0; i<response.length() && i<5;i++){
                 Record r = new Record(response.getJSONObject(i));
                 leaderboard.add(r);
             }
@@ -47,9 +49,10 @@ public class LeaderBoardClient {
     public boolean insertRecord(Record r){
 
         ServiceClient ws = new ServiceClient("http://193.77.150.15:48529/_db/pheidippides/phe/insertRecord", ServiceClient.RequestMethod.POST);
+
         ws.addParam("user",r.getJSONString());
         try {
-            JSONObject response = ws.requestJson();
+            String response = ws.request();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (JSONException e) {
@@ -67,7 +70,7 @@ public class LeaderBoardClient {
         String requestJson = json.toJson(requestObject); // this is just an example
 
         Net.HttpRequest request = new Net.HttpRequest(method);
-        final String url = "http://193.77.150.15:48529/_db/pheidippides/phe/leaderboard";
+        final String url = "http://193.77.150.15:48529/_db/pheidippides/phe/insertRecord";
         request.setUrl(url);
 
         request.setContent(requestJson);

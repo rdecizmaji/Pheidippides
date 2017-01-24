@@ -95,11 +95,6 @@ public class GameManager implements GameEventListener {
     @Override
     public void displayLeaderboard() {
 
-        LeaderBoardClient lbc=new LeaderBoardClient();
-        ArrayList<Record> leaderboard=lbc.getLeaderboard();
-
-
-
         gameEventListener.displayLeaderboard();
     }
 

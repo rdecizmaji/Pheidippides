@@ -30,11 +30,16 @@ public class Record {
         }
     }
 
+    public Record(int score, String nickname) {
+        this.score = score;
+        this.nickname=nickname;
+    }
+
     public String getJSONString(){
         String json;
         json="{" +
                 "'score':"+score+
-                ",'nickname':"+ "'" +nickname + "'" +
+                ",'user':"+ "'" +nickname + "'" +
                 ",'id':"+ "'" +id + "'" +
                 ",'epoch':"+ "'" +epoch + "'" +
               "}";
@@ -42,5 +47,35 @@ public class Record {
         return json;
     }
 
+    public int getScore() {
+        return score;
+    }
 
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public String getNickname() {
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public long getEpoch() {
+        return epoch;
+    }
+
+    public void setEpoch(long epoch) {
+        this.epoch = epoch;
+    }
 }
