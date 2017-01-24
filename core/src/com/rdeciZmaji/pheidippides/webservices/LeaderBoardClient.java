@@ -30,7 +30,7 @@ public class LeaderBoardClient {
             JSONArray response = new JSONArray(responseStr);
 
             leaderboard=new ArrayList<Record>();
-            for (int i=0; i<response.length();i++){
+            for (int i=0; i<response.length() && i<5;i++){
                 Record r = new Record(response.getJSONObject(i));
                 leaderboard.add(r);
             }
